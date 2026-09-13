@@ -1,26 +1,22 @@
 
-body {
+.page-body {
     text-align: center;
     background-color: #000000;
     font-family: Arial, sans-serif;
 }
 
-head {
-    text-align: center;
-}
-h1 {
+.page-title {
     color: #545151;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-
-
-h2 {
+.section-title {
     color: #545151;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-body {
-    color:#545151
+
+.page-body {
+  color: #545151;
 }
 .church {
   border: 5px solid #ffffff;
@@ -31,41 +27,43 @@ body {
 .outside {
   border: 5px solid #ffffff;
 }
-td {
+.schedule-cell {
     font-family: 'Times New Roman', Times, serif;
     padding-left: 30px;
 }
-table {
+.schedule-table {
   margin-left: auto;
   margin-right: auto;
   width: 50%; 
 }
 
 @media (max-width: 599px) {
-  nav a {
+  .navigation-link {
     display: block;
     margin: 10px 0;
   }
 
-  h1 {
+  .page-title {
     font-size: 2rem;
   }
 
-  h2 {
+  .section-title {
     font-size: 1.5rem;
   }
 
-  img {
+  .tree,
+  .outside,
+  .church {
     height: auto;
     max-width: 100%;
   }
 
-  table {
+  .schedule-table {
     font-size: 0.8rem;
     width: 100%;
   }
 
-  td {
+  .schedule-cell {
     padding-left: 5px;
   }
 }
